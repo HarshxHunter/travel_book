@@ -22,13 +22,13 @@ const Header: React.FC = () => {
 
         {/* Nav - Center */}
         <nav className="absolute left-1/2 -translate-x-1/2 flex gap-10 text-sm font-medium text-white">
-            <Link href="/home" className="nav-underline font-bold">
+            <Link href="/home" className="border-b-2 border-[#DF6951] pb-0.5">
                 Home
             </Link>
-            <Link href="/about" className="nav-underline font-bold">
+            <Link href="/about" className="hover:text-[#DF6951] transition">
                 About
             </Link>
-            <Link href="/packages" className="nav-underline font-bold">
+            <Link href="/packages" className="hover:text-[#DF6951] transition">
                 Packages
             </Link>
             {/* <Link href="/services" className="nav-underline font-bold">

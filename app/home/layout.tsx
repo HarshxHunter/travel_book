@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import React from "react";
 
+
 export const metadata: Metadata = {
   title: "Home | My App",
   description: "Home page of My App",

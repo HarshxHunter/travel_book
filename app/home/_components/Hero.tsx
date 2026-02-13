@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import PeopleSmall from "@/components/PeopleSmall";
+import PeopleSmall from "@/app/components/PeopleSmall";
 import Image from "next/image";
 import PlanTrip from "./PlanTrip";
 
